@@ -1,0 +1,80 @@
+body {
+  background-color: bisque;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#game {
+  display: flex;
+
+  transition: transform 1s cubic-bezier(1, 1.52, 0, -0.29);
+}
+
+.game2 {
+  transform: rotateZ(3.142rad);
+}
+
+.slot {
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  overflow: hidden;
+}
+
+.whole {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 70px solid rgba(0, 0, 0, 0.9);
+  flex-shrink: 0;
+  z-index: -10;
+}
+
+.whole.player-1 {
+  background-color: red;
+}
+
+.whole.player-2 {
+  background-color: yellow;
+}
+
+.modal-bg {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+
+.modal {
+  background-color: antiquewhite;
+  width: 30%;
+  height: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4%;
+}
+
+.modal2 {
+  visibility: hidden;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#but3 a {
+  color: black;
+  text-decoration: none;
+}
