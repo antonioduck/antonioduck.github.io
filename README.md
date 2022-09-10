@@ -1,1 +1,1 @@
-# buckwheat-final-project
+Connect Four was the first game I actually built with HTML CSS and JS. There are 2 different players and each one of them is playing with a different color (red or yellow ). The first player who will have four dots in a row (horizontal, vertical , or diagonal )wins !!!Let the game begin :)
